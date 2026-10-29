@@ -1,11 +1,12 @@
 {
   "name": "terminal-sandbox",
   "version": "1.0.0",
-  "description": "A tiny falling-sand toy for your terminal",
-  "main": "sandbox.js",
+  "description": "A tiny falling-sand toy for the browser and the terminal",
+  "main": "server.js",
   "bin": { "sandbox": "sandbox.js" },
   "scripts": {
-    "start": "node sandbox.js"
+    "start": "node server.js",
+    "terminal": "node sandbox.js"
   },
   "engines": { "node": ">=14" },
   "license": "MIT"
